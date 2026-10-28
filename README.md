@@ -16,6 +16,7 @@ record? After a few quiet seconds the countdown starts on its own, again and aga
   portrait mask.
 - Recording (`src/party/Capture.tsx`) uses the template's `src/capture.ts`; the record button
   starts the countdown, from 5, every time.
+- Thumbnail: `public/images/countdown-2027-thumbnail.jpg` (the share image).
 - Models: `public/models/vincentt-*.glb` (`src/party/outfit.ts`). Credits in `CREDITS.md`.
 - Dev preview without a camera: the media switcher starts on `dev-media/countdown.mp4` if you
   add one, else the SDK's sample video; 1–4 jump to waiting, the countdown, the toot and the party;
